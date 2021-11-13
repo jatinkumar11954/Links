@@ -34,7 +34,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       # append stats to data/octokit.csv
       - run: |
-          # chown -R $(whoami) .
+          
           echo <br>${{github.event.head_commit.message}}<br> >> ./README.md
           git config --local user.email  ${{ secrets.email }}
           git config --local user.name "jatinkumar11954"
