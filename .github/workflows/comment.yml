@@ -27,7 +27,7 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
-        run: echo github.event.head_commit.message
+        run: chown -R $(whoami) .
 
       # Runs a set of commands using the runners shell
       - name: Write File
@@ -35,5 +35,7 @@ jobs:
         with:
           path: ${{ env.home}}/README.md
           contents: |
+          
             echo github.event.head_commit.message
+            
           write-mode: append
