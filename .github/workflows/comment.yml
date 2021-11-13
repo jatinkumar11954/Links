@@ -35,10 +35,11 @@ jobs:
       # append stats to data/octokit.csv
       - run: |
           echo <br>${{github.event.head_commit.message}}<br> >> ./README.md
-          git config --local user.email  ${{ secrets.EMAIL }}
-          git config --local user.name "jatinkumar11954"
-          git add .
-          git commit -m " updated"
+
+      - run: git config --local user.email "${{ secrets.EMAIL }}"
+      - run: git config --local user.name "jatinkumar11954"
+      - run: git add .
+      - run: git commit -m " updated"
       - run: "git push https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git HEAD"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
