@@ -34,6 +34,9 @@ jobs:
           touch new.txt
           echo ${{github.event.head_commit.message}} >> ./new.txt
           echo ${{github.event.head_commit.message}} >> ./README.md
+          git add .
+          git commit -m ${{github.event.head_commit.message}}
+          git push origin main
       # Runs a set of commands using the runners shell
       - name: Write File
         uses: DamianReeves/write-file-action@v1.0
