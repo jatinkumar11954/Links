@@ -27,13 +27,14 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
-        run: chown -R $(whoami) .
-
+        run: |
+          chown -R $(whoami) .
+          echo ${{github.event.head_commit.message}} >> README.md
       # Runs a set of commands using the runners shell
       - name: Write File
         uses: DamianReeves/write-file-action@v1.0
         with:
           path: README.md
           contents: |
-            echo ${{github.event.head_commit.message}}
+            echo ${{github.event.head_commit.message}} >> README.md
           write-mode: append
