@@ -33,7 +33,7 @@ jobs:
       - name: Write File
         uses: DamianReeves/write-file-action@v1.0
         with:
-          path: ${{ env.home}}/README.md
+          path: README.md
           contents: |
           
             echo github.event.head_commit.message
