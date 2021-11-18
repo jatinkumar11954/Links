@@ -13,3 +13,4 @@ https://on24static.akamaized.net/event/33/88/82/9/rt/1/documents/resourceList163
 <br>https://learn.hashicorp.com/collections/terraform/azure-get-started<br>
 <br>https://www.labitpro.com/<br>
 <br>https://events.withgoogle.com/googlecloudready-facilitator-program/<br>
+<br>https://www.examtopics.com/exams/microsoft/az-900/view/<br>
