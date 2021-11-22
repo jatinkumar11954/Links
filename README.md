@@ -5,6 +5,7 @@ https://niveussolutions.com/careers/
 <br>
 https://neverinstall.com/
 <br>
+
 <h3>Azure</h3>
 https://on24static.akamaized.net/event/33/88/82/9/rt/1/documents/resourceList1630317257783/presentationdeckpart11630317256799.pdf
 <br>
@@ -14,3 +15,4 @@ https://on24static.akamaized.net/event/33/88/82/9/rt/1/documents/resourceList163
 <br>https://www.labitpro.com/<br>
 <br>https://events.withgoogle.com/googlecloudready-facilitator-program/<br>
 <br>https://www.examtopics.com/exams/microsoft/az-900/view/<br>
+
