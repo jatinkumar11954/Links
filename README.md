@@ -17,3 +17,5 @@ https://on24static.akamaized.net/event/33/88/82/9/rt/1/documents/resourceList163
 <br>https://www.examtopics.com/exams/microsoft/az-900/view/<br>
 <br>https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE2PjDI<br>
 <br>https://gsi.learnondemand.net/ClassEnrollment/2735004<br>
+
+<h3> AWS </h3>
