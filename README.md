@@ -22,3 +22,4 @@ https://on24static.akamaized.net/event/33/88/82/9/rt/1/documents/resourceList163
 <br>https://gsi.learnondemand.net/ClassEnrollment/2735004<br>
 
 <h3>Azure AD</h3>
+<br>https://community.spiceworks.com/how_to/140656-manually-force-sync-azure-ad-connect-using-powershell<br>
