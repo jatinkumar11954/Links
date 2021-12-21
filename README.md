@@ -24,3 +24,4 @@ https://docs.microsoft.com/en-us/learn/paths/evolve-your-devops-practices/
 
 <h3>Azure AD</h3>
 <br>https://community.spiceworks.com/how_to/140656-manually-force-sync-azure-ad-connect-using-powershell<br>
+<br>-----------------<br>
