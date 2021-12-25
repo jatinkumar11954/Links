@@ -28,3 +28,4 @@ https://docs.microsoft.com/en-us/learn/paths/evolve-your-devops-practices/
 
 Docker
 <br>https://stackoverflow.com/questions/66074090/system-invalidoperationexception-failed-to-deploy-distro-docker-desktop-to-c-u<br>
+
